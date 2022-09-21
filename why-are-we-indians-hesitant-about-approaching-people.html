@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Interack | Why are we Indians hesitant about approaching people?
+        </title>
+
+        <!-- Favicon -->
+        <link
+            rel="shortcut icon"
+            href="./assets/images/favicon.svg"
+            type="image/x-icon"
+        />
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+        />
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,600&family=Work+Sans:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="open-blog">
+        <!-- Loading -->
+        <div class="loading-animation-container loading">
+            <div class="loading-animation">
+                <div class="face">
+                    <img src="./assets/images/face/face_1.jpg" alt="Person" />
+                </div>
+                <div class="circle delay1"></div>
+                <div class="circle delay2"></div>
+                <div class="circle delay3"></div>
+                <div class="circle delay4"></div>
+            </div>
+        </div>
+        <!-- Loading End -->
+
+        <!-- Download Popup -->
+        <div class="download-popup-container">
+            <div class="container">
+                <div class="download-popup">
+                    <lottie-player
+                        src="./assets/images/lottie/coming-soon.json"
+                        background="transparent"
+                        speed="1"
+                        style="width: 200px"
+                        loop
+                        autoplay
+                    ></lottie-player>
+                    <h6>
+                        “Buckle up ! Soon coming on play store and app store”
+                    </h6>
+                    <lottie-player
+                        src="./assets/images/lottie/waiting.json"
+                        background="transparent"
+                        speed="1"
+                        style="width: 100px"
+                        loop
+                        autoplay
+                    ></lottie-player>
+                    <button class="popup-close">Okay, waiting!</button>
+                </div>
+            </div>
+        </div>
+        <!-- Download Popup -->
+
+        <!-- Navigation Bar -->
+        <header>
+            <div class="nav-container">
+                <div class="container">
+                    <nav>
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <a href="/" class="logo">
+                            <svg
+                                width="56"
+                                height="66"
+                                viewBox="0 0 56 66"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M50.0267 15.3403C52.5255 16.7535 54.0705 19.4022 54.0705 22.2729V43.6502C54.0705 46.4688 52.5807 49.0774 50.1532 50.5097L32.2878 61.0506C29.7937 62.5222 26.6973 62.524 24.2014 61.0553L5.8548 50.2594C3.42274 48.8283 1.92954 46.2171 1.92954 43.3952V22.3764C1.92954 19.4825 3.49928 16.8163 6.02975 15.4122L24.4007 5.21869C26.8244 3.87385 29.7729 3.88583 32.1856 5.25032L50.0267 15.3403Z"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M2.6217 46.9258L27.7524 3.59009"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M25.2793 61.9639L16.3747 25.2571"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M52.8833 17.8369L15.1872 25.2574"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M53.576 46.332L16.3746 24.6642"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                            </svg>
+                            <h1>Interack</h1>
+                        </a>
+
+                        <ul class="nav-list">
+                            <li>
+                                <a href="./about-us.html" class="nav-link"
+                                    >About Us</a
+                                >
+                            </li>
+                            <li>
+                                <a href="./blog.html" class="nav-link">Blog</a>
+                            </li>
+                            <li>
+                                <a href="./contact.html" class="nav-link"
+                                    >Contact</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="btn download"
+                                    ><span>Download</span
+                                    ><span
+                                        ><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path
+                                                d="M7 2L7 9.292969L4.351563 6.648438L3.648438 7.351563L7.5 11.207031L11.355469 7.351563L10.644531 6.648438L8 9.292969L8 2 Z M 3 13L3 14L12 14L12 13Z"
+                                                fill="#fff"
+                                            /></svg></span
+                                ></a>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="btn download"
+                            ><span>Download</span
+                            ><span
+                                ><svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path
+                                        d="M7 2L7 9.292969L4.351563 6.648438L3.648438 7.351563L7.5 11.207031L11.355469 7.351563L10.644531 6.648438L8 9.292969L8 2 Z M 3 13L3 14L12 14L12 13Z"
+                                        fill="#fff"
+                                    /></svg></span
+                        ></a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- Navigation Bar End -->
+
+        <main>
+            <!-- Header Video Section -->
+            <section class="header-img-section">
+                <div class="container">
+                    <div class="header-img-content"></div>
+                </div>
+            </section>
+            <!-- Header Video Section End -->
+
+            <!-- Open Blog Section -->
+            <section class="open-blog-section" data-aos="fade-up">
+                <div class="container">
+                    <div class="open-blog-content">
+                        <h4>
+                            Why are we Indians hesitant about approaching
+                            people?
+                        </h4>
+
+                        <p>
+                            Why so? Because we fear being judged by others. It
+                            scares us to even start a conversation. We feel
+                            anxious, scared and full of apprehensions while
+                            approaching people. Although we converse, there’s a
+                            constant consciousness that follows us around and we
+                            think twice before uttering anything. This happens
+                            because we don’t know the person. For us,
+                            approaching somebody can be daunting without finding
+                            the common traits that connect us.
+                        </p>
+
+                        <p>
+                            Another reason why people don’t approach somebody is
+                            that they expect others to make the first move.
+                            Here, we take a back seat and wait for miracles to
+                            happen. It’s due to the shyness and reserved nature
+                            that we Indians inherently possess. Since our
+                            childhood, we've been told to behave appropriately
+                            everywhere we go. To be disciplined, to portray
+                            socially acceptable behaviour when we are in the
+                            public eye. So, we keep that at the back of our mind
+                            and maintain our boundaries.
+                        </p>
+
+                        <p>
+                            If we observe American series, movies or even
+                            real-life situations, they always approach others
+                            first. If you’ve watched the famous sitcom
+                            ‘Friends’, you know how open they’re to getting
+                            acquainted with new people. For instance, if one of
+                            them liked a person romantically, they’d go over to
+                            them and ask them out on a date.
+                        </p>
+
+                        <p>
+                            But in India, that’s not the case. Most people date
+                            via word of mouth. If you like somebody, you first
+                            tell your friend and then it indirectly reaches your
+                            crush. Here, few sources bring you together. We fear
+                            rejection, & so we overthink expressing how we feel.
+                            We’ve been conditioned with criticism rather than
+                            with praise. That’s why, we feel afraid to put
+                            ourselves out there.
+                        </p>
+
+                        <p>
+                            The thought of failure stops us from discovering our
+                            true potential. If we aren’t self-confident, we
+                            won’t feel so while approaching others
+                        </p>
+                        <br />
+                        <h5>How do we overcome this?</h5>
+                        <h6>1. Don’t be scared to make mistakes</h6>
+                        <p>
+                            Though it’s a skill to talk to people, one can fail
+                            at it & that’s okay. Pick up those learnings and use
+                            it well next time.
+                        </p>
+                        <h6>2. Step out of your comfort zone:</h6>
+                        <p>
+                            Approach people. Practice. Eventually you gain
+                            confidence.
+                        </p>
+                        <h6>3. Download Interack :</h6>
+                        <p>
+                            An Indian social media app designed to ease
+                            connecting with people. All you have to do is ‘find
+                            people nearby’. Pictures pinned on their feed and
+                            their social media handles help you understand them.
+                            Then, all you have to do is strike a conversation.
+                        </p>
+                        <p>
+                            You being behind the screen won’t have to worry
+                            much. Build a rapport and meet these wonderful
+                            people! Amazing , isn't it ? Now, connect freely
+                            with the people of your choice.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- Open Blog Section End -->
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-head">
+                        <a href="/" class="footer-logo">
+                            <svg
+                                width="56"
+                                height="66"
+                                viewBox="0 0 56 66"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M50.0267 15.3403C52.5255 16.7535 54.0705 19.4022 54.0705 22.2729V43.6502C54.0705 46.4688 52.5807 49.0774 50.1532 50.5097L32.2878 61.0506C29.7937 62.5222 26.6973 62.524 24.2014 61.0553L5.8548 50.2594C3.42274 48.8283 1.92954 46.2171 1.92954 43.3952V22.3764C1.92954 19.4825 3.49928 16.8163 6.02975 15.4122L24.4007 5.21869C26.8244 3.87385 29.7729 3.88583 32.1856 5.25032L50.0267 15.3403Z"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M2.6217 46.9258L27.7524 3.59009"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M25.2793 61.9639L16.3747 25.2571"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M52.8833 17.8369L15.1872 25.2574"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M53.576 46.332L16.3746 24.6642"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                            </svg>
+                            <h1>Interack</h1>
+                        </a>
+                        <ul class="footer-social">
+                            <li>
+                                <a
+                                    href="https://www.instagram.com/interackapp/"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
+                                    <img
+                                        src="./assets/images/social/instagram.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://twitter.com/InterackApp"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                    ><img
+                                        src="./assets/images/social/twitter.png"
+                                        alt=""
+                                /></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.facebook.com/Interack-111414461659378"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                    ><img
+                                        src="./assets/images/social/facebook.png"
+                                        alt=""
+                                /></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="footer-list">
+                        <li><a href="./contact.html">Contact us</a></li>
+                        <li><a href="./terms.html">Terms & Conditions</a></li>
+                        <li>
+                            <a href="./privacy-policy.html">Privacy Policy</a>
+                        </li>
+                    </ul>
+                    <p class="copyright">
+                        &copy;2022 Interack | All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+        <!-- Scripts -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./assets/js/script.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    </body>
+</html>

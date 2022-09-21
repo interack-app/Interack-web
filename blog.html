@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Interack | Blog</title>
+
+        <!-- Favicon -->
+        <link
+            rel="shortcut icon"
+            href="./assets/images/favicon.svg"
+            type="image/x-icon"
+        />
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+        />
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,600&family=Work+Sans:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Loading -->
+        <div class="loading-animation-container loading">
+            <div class="loading-animation">
+                <div class="face">
+                    <img src="./assets/images/face/face_1.jpg" alt="Person" />
+                </div>
+                <div class="circle delay1"></div>
+                <div class="circle delay2"></div>
+                <div class="circle delay3"></div>
+                <div class="circle delay4"></div>
+            </div>
+        </div>
+        <!-- Loading End -->
+
+        <!-- Download Popup -->
+        <div class="download-popup-container">
+            <div class="container">
+                <div class="download-popup">
+                    <lottie-player
+                        src="./assets/images/lottie/coming-soon.json"
+                        background="transparent"
+                        speed="1"
+                        style="width: 200px"
+                        loop
+                        autoplay
+                    ></lottie-player>
+                    <h6>
+                        “Buckle up ! Soon coming on play store and app store”
+                    </h6>
+                    <lottie-player
+                        src="./assets/images/lottie/waiting.json"
+                        background="transparent"
+                        speed="1"
+                        style="width: 100px"
+                        loop
+                        autoplay
+                    ></lottie-player>
+                    <button class="popup-close">Okay, waiting!</button>
+                </div>
+            </div>
+        </div>
+        <!-- Download Popup -->
+
+        <!-- Navigation Bar -->
+        <header>
+            <div class="nav-container">
+                <div class="container">
+                    <nav>
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <a href="/" class="logo">
+                            <svg
+                                width="56"
+                                height="66"
+                                viewBox="0 0 56 66"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M50.0267 15.3403C52.5255 16.7535 54.0705 19.4022 54.0705 22.2729V43.6502C54.0705 46.4688 52.5807 49.0774 50.1532 50.5097L32.2878 61.0506C29.7937 62.5222 26.6973 62.524 24.2014 61.0553L5.8548 50.2594C3.42274 48.8283 1.92954 46.2171 1.92954 43.3952V22.3764C1.92954 19.4825 3.49928 16.8163 6.02975 15.4122L24.4007 5.21869C26.8244 3.87385 29.7729 3.88583 32.1856 5.25032L50.0267 15.3403Z"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M2.6217 46.9258L27.7524 3.59009"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M25.2793 61.9639L16.3747 25.2571"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M52.8833 17.8369L15.1872 25.2574"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M53.576 46.332L16.3746 24.6642"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                            </svg>
+                            <h1>Interack</h1>
+                        </a>
+
+                        <ul class="nav-list">
+                            <li>
+                                <a href="./about-us.html" class="nav-link"
+                                    >About Us</a
+                                >
+                            </li>
+                            <li>
+                                <a href="./blog.html" class="nav-link active"
+                                    >Blog</a
+                                >
+                            </li>
+                            <li>
+                                <a href="./contact.html" class="nav-link"
+                                    >Contact</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="btn download"
+                                    ><span>Download</span
+                                    ><span
+                                        ><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path
+                                                d="M7 2L7 9.292969L4.351563 6.648438L3.648438 7.351563L7.5 11.207031L11.355469 7.351563L10.644531 6.648438L8 9.292969L8 2 Z M 3 13L3 14L12 14L12 13Z"
+                                                fill="#fff"
+                                            /></svg></span
+                                ></a>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="btn download"
+                            ><span>Download</span
+                            ><span
+                                ><svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path
+                                        d="M7 2L7 9.292969L4.351563 6.648438L3.648438 7.351563L7.5 11.207031L11.355469 7.351563L10.644531 6.648438L8 9.292969L8 2 Z M 3 13L3 14L12 14L12 13Z"
+                                        fill="#fff"
+                                    /></svg></span
+                        ></a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- Navigation Bar End -->
+
+        <main>
+            <!-- Header Video Section -->
+            <section class="header-video-section">
+                <div class="header-video-container">
+                    <video
+                        src="./assets/videos/about.mp4"
+                        autoplay
+                        muted
+                        loop
+                        playsinline
+                    ></video>
+                </div>
+                <div class="container">
+                    <div class="header-video-content">
+                        <h3 data-aos="zoom-in">
+                            Changing a way people connect
+                        </h3>
+                    </div>
+                </div>
+            </section>
+            <!-- Header Video Section End -->
+
+            <!-- Blog Section -->
+            <section class="blog-section">
+                <div class="container">
+                    <div class="blog-content">
+                        <h4 data-aos="fade-in">All Blogs</h4>
+                        <div class="blog">
+                            <div class="blog-img" data-aos="fade-right">
+                                <img
+                                    src="./assets/images/blog/blog_1_thumb.jpg"
+                                    alt="Why are we Indians hesitant about approaching people?
+                                "
+                                />
+                            </div>
+                            <div class="blog-text" data-aos="fade-left">
+                                <h5>
+                                    Why are we Indians hesitant about
+                                    approaching people?
+                                </h5>
+                                <p>
+                                    As Indians, we’ve been reserved when it
+                                    comes to approaching people. Our culture has
+                                    raised us so that we stay in our shells. And
+                                    for generations together, we've been
+                                    following the same. Since social media has
+                                    seen the light of the day, people are
+                                    engrossed in their phones so, approaching
+                                    somebody personally is out of the question.
+                                    Hitting a ‘follow’ on Instagram might be
+                                    easy but starting a conversation in DMs is
+                                    the tricky part.
+                                </p>
+                                <a
+                                    href="./why-are-we-indians-hesitant-about-approaching-people.html"
+                                    class="btn"
+                                    ><span>Read More</span>
+                                    <span
+                                        ><svg
+                                            fill="none"
+                                            height="24"
+                                            stroke="#fff"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            viewbox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <line
+                                                x1="4"
+                                                x2="20"
+                                                y1="12"
+                                                y2="12"
+                                            />
+                                            <polyline
+                                                points="14 6 20 12 14 18"
+                                            /></svg
+                                    ></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Blog Section End -->
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-head">
+                        <a href="/" class="footer-logo">
+                            <svg
+                                width="56"
+                                height="66"
+                                viewBox="0 0 56 66"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M50.0267 15.3403C52.5255 16.7535 54.0705 19.4022 54.0705 22.2729V43.6502C54.0705 46.4688 52.5807 49.0774 50.1532 50.5097L32.2878 61.0506C29.7937 62.5222 26.6973 62.524 24.2014 61.0553L5.8548 50.2594C3.42274 48.8283 1.92954 46.2171 1.92954 43.3952V22.3764C1.92954 19.4825 3.49928 16.8163 6.02975 15.4122L24.4007 5.21869C26.8244 3.87385 29.7729 3.88583 32.1856 5.25032L50.0267 15.3403Z"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M2.6217 46.9258L27.7524 3.59009"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M25.2793 61.9639L16.3747 25.2571"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M52.8833 17.8369L15.1872 25.2574"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M53.576 46.332L16.3746 24.6642"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                            </svg>
+                            <h1>Interack</h1>
+                        </a>
+                        <ul class="footer-social">
+                            <li>
+                                <a
+                                    href="https://www.instagram.com/interackapp/"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
+                                    <img
+                                        src="./assets/images/social/instagram.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://twitter.com/InterackApp"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                    ><img
+                                        src="./assets/images/social/twitter.png"
+                                        alt=""
+                                /></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.facebook.com/Interack-111414461659378"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                    ><img
+                                        src="./assets/images/social/facebook.png"
+                                        alt=""
+                                /></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="footer-list">
+                        <li><a href="./contact.html">Contact us</a></li>
+                        <li><a href="./terms.html">Terms & Conditions</a></li>
+                        <li>
+                            <a href="./privacy-policy.html">Privacy Policy</a>
+                        </li>
+                    </ul>
+                    <p class="copyright">
+                        &copy;2022 Interack | All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+        <!-- Scripts -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./assets/js/script.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    </body>
+</html>

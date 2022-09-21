@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Interack</title>
+
+        <!-- Favicon -->
+        <link
+            rel="shortcut icon"
+            href="./assets/images/favicon.svg"
+            type="image/x-icon"
+        />
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+        />
+        <link rel="stylesheet" href="./assets/css/onepage-scroll.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,600&family=Work+Sans:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Loading -->
+        <div class="loading-animation-container loading">
+            <div class="loading-animation">
+                <div class="face">
+                    <img src="./assets/images/face/face_1.jpg" alt="Person" />
+                </div>
+                <div class="circle delay1"></div>
+                <div class="circle delay2"></div>
+                <div class="circle delay3"></div>
+                <div class="circle delay4"></div>
+            </div>
+        </div>
+        <!-- Loading End -->
+
+        <!-- Download Popup -->
+        <div class="download-popup-container">
+            <div class="container">
+                <div class="download-popup">
+                    <lottie-player
+                        src="./assets/images/lottie/coming-soon.json"
+                        background="transparent"
+                        speed="1"
+                        style="width: 200px"
+                        loop
+                        autoplay
+                    ></lottie-player>
+                    <h6>
+                        “Buckle up ! Soon coming on play store and app store”
+                    </h6>
+                    <lottie-player
+                        src="./assets/images/lottie/waiting.json"
+                        background="transparent"
+                        speed="1"
+                        style="width: 100px"
+                        loop
+                        autoplay
+                    ></lottie-player>
+                    <button class="popup-close">Okay, waiting!</button>
+                </div>
+            </div>
+        </div>
+        <!-- Download Popup -->
+
+        <!-- Navigation Bar -->
+        <header>
+            <div class="nav-container">
+                <div class="container">
+                    <nav>
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <a href="/" class="logo">
+                            <svg
+                                width="56"
+                                height="66"
+                                viewBox="0 0 56 66"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M50.0267 15.3403C52.5255 16.7535 54.0705 19.4022 54.0705 22.2729V43.6502C54.0705 46.4688 52.5807 49.0774 50.1532 50.5097L32.2878 61.0506C29.7937 62.5222 26.6973 62.524 24.2014 61.0553L5.8548 50.2594C3.42274 48.8283 1.92954 46.2171 1.92954 43.3952V22.3764C1.92954 19.4825 3.49928 16.8163 6.02975 15.4122L24.4007 5.21869C26.8244 3.87385 29.7729 3.88583 32.1856 5.25032L50.0267 15.3403Z"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M2.6217 46.9258L27.7524 3.59009"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M25.2793 61.9639L16.3747 25.2571"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M52.8833 17.8369L15.1872 25.2574"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                                <path
+                                    d="M53.576 46.332L16.3746 24.6642"
+                                    stroke="#FFB733"
+                                    stroke-width="3.85909"
+                                />
+                            </svg>
+                            <h1>Interack</h1>
+                        </a>
+
+                        <ul class="nav-list">
+                            <li>
+                                <a href="./about-us.html" class="nav-link"
+                                    >About Us</a
+                                >
+                            </li>
+                            <li>
+                                <a href="./blog.html" class="nav-link">Blog</a>
+                            </li>
+                            <li>
+                                <a href="./contact.html" class="nav-link"
+                                    >Contact</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="btn download"
+                                    ><span>Download</span
+                                    ><span
+                                        ><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path
+                                                d="M7 2L7 9.292969L4.351563 6.648438L3.648438 7.351563L7.5 11.207031L11.355469 7.351563L10.644531 6.648438L8 9.292969L8 2 Z M 3 13L3 14L12 14L12 13Z"
+                                                fill="#fff"
+                                            /></svg></span
+                                ></a>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="btn download"
+                            ><span>Download</span
+                            ><span
+                                ><svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path
+                                        d="M7 2L7 9.292969L4.351563 6.648438L3.648438 7.351563L7.5 11.207031L11.355469 7.351563L10.644531 6.648438L8 9.292969L8 2 Z M 3 13L3 14L12 14L12 13Z"
+                                        fill="#fff"
+                                    /></svg></span
+                        ></a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- Navigation Bar End -->
+
+        <main class="main">
+            <!-- Hero Section -->
+            <section class="hero-section section">
+                <div class="loading-animation-container">
+                    <div class="loading-animation">
+                        <div class="face face_1">
+                            <img
+                                data-aos="fade-in"
+                                src="./assets/images/face/face_1.jpg"
+                                alt="Person"
+                            />
+                        </div>
+                        <div class="face face-2">
+                            <img
+                                data-aos="fade-in"
+                                data-aos-delay="500"
+                                src="./assets/images/face/face_2.jpg"
+                                alt="Person"
+                            />
+                        </div>
+                        <div class="face face-3">
+                            <img
+                                data-aos="fade-in"
+                                data-aos-delay="1200"
+                                src="./assets/images/face/face_3.jpg"
+                                alt="Person"
+                            />
+                        </div>
+                        <div class="face face-4">
+                            <img
+                                data-aos="fade-in"
+                                data-aos-delay="2000"
+                                src="./assets/images/face/face_4.jpg"
+                                alt="Person"
+                            />
+                        </div>
+                        <div class="circle delay1"></div>
+                        <div class="circle delay2"></div>
+                        <div class="circle delay3"></div>
+                        <div class="circle delay4"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-container">
+                            <h2 data-aos="zoom-in">
+                                Connecting you with people <br />
+                                and places that matter
+                            </h2>
+
+                            <div class="hero-btn">
+                                <a href="#" class="download">
+                                    <img
+                                        src="./assets/images/google-play.png"
+                                        alt="Google Play"
+                                    />
+                                </a>
+
+                                <a href="#" class="download">
+                                    <img
+                                        src="./assets/images/app-store.png"
+                                        alt="App Store"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Hero Section End -->
+
+            <!-- Feature Section -->
+            <section class="feature-section section">
+                <div class="container">
+                    <div class="feature-content">
+                        <div class="feature">
+                            <div class="feature-img">
+                                <div class="feature-head animate__animated">
+                                    <h6>Feature</h6>
+                                    <h4>Pinboard</h4>
+                                </div>
+                                <div class="animate__animated">
+                                    <img
+                                        src="./assets/images/home/feature_pinboard.png"
+                                        alt="Pinboard"
+                                    />
+                                </div>
+                            </div>
+                            <div class="feature-text animate__animated">
+                                <h5>
+                                    Pin your moments & share them with those
+                                    around you.
+                                </h5>
+                                <p>
+                                    Interack also enables you to pin your
+                                    memorable moments on its feed. This way you
+                                    can tell the world about your interests,
+                                    your favorite things to do and enable them
+                                    to get to know you.
+                                </p>
+                                <p>
+                                    This helps you reach closer to people who
+                                    share the same interests or even the
+                                    opposite ones.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Feature Section End -->
+
+            <!-- Feature Section -->
+            <section class="feature-section section alt">
+                <div class="container">
+                    <div class="feature-content">
+                        <div class="feature">
+                            <div class="feature-img">
+                                <div class="feature-head animate__animated">
+                                    <h6>Feature</h6>
+                                    <h4>Nearby</h4>
+                                </div>
+                                <div class="animate__animated">
+                                    <img
+                                        src="./assets/images/home/feature_nearby.png"
+                                        alt="Nearby"
+                                    />
+                                </div>
+                            </div>
+                            <div class="feature-text animate__animated">
+                                <h5>
+                                    Socializing just got easier and so did
+                                    finding their social media handle.
+                                </h5>
+                                <p>
+                                    Sometimes, when we come across somebody
+                                    interesting while going down the street
+                                    ,cafe or campus, we wish to connect with
+                                    them but are unable to find a way to do so.
+                                </p>
+                                <p>
+                                    With Interack, you can just find the person
+                                    right in front of you & get their social
+                                    media id. Scroll through their social media
+                                    to know more about them and connect right
+                                    away! It's time that we make this world more
+                                    connected and open to possibilities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Feature Section End -->
+        </main>
+
+        <!-- Scripts -->
+        <script src="./assets/js/onepagescroll.min.js"></script>
+        <script>
+            let homeScroll = onePageScroll(".main", {
+                sectionContainer: "section",
+                easing: "ease",
+                animationTime: 1000,
+                pagination: false,
+                beforeMove: function (index) {},
+                afterMove: function (index) {},
+                loop: false,
+                keyboard: false,
+                responsiveFallback: 982,
+            });
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./assets/js/script.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    </body>
+</html>
